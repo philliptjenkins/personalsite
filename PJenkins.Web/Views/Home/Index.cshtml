@@ -1,18 +1,27 @@
-﻿
-@{
-    Layout = null;
+﻿@{
+    Layout = "~/Views/Shared/_DefaultLayout.cshtml";
 }
-
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <div>
-        <p>Hello World!</p>
+<div class="row" style="padding-top:40px">
+    <!--Header-->
+    <div class="col-md-4">
+        <!--Sidebar Content-->
+        <img src="~/Images/profile.jpg" alt="Profile Picture" height="250" width="250" class="img-responsive img-rounded center-block"/>
     </div>
-</body>
-</html>
+    <div class="col-md-6">
+        <!--Body Content-->
+        <h1>Phillip Jenkins</h1>
+        <p class="lead">
+            An Information Technology intern at ZirMed&reg; Medical Solutions studying Software Architecture and pursuing a Computer Science degree at Indiana University Southeast.
+        </p>
+        <div>
+            <blockquote>
+                <p>
+                    The number one benefit of information technology is that it empowers people to do what they want to do. It lets people be creative. It lets people be productive. It lets people learn things they didn't think they could learn before, and so in a sense it is all about potential.
+                </p>
+                <footer>
+                    Steve Ballmer
+                </footer>
+            </blockquote>
+        </div>
+    </div>
+</div>

@@ -117,8 +117,22 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Icon.png" />
+    <Content Include="Images\Logos\dev_mark.png" />
+    <Content Include="Images\Logos\facebook.png" />
+    <Content Include="Images\Logos\github_dark.png" />
+    <Content Include="Images\Logos\github_light.png" />
+    <Content Include="Images\Logos\linkedin_black.png" />
+    <Content Include="Images\Logos\linkedin_white.png" />
+    <Content Include="Images\Logos\twitter.png" />
+    <Content Include="Images\profile.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Files\PJenkins_Resume.pdf" />
+    <Content Include="Content\bootswatch.less" />
+    <Content Include="Content\variables.less" />
+    <Content Include="Content\_bootswatch.scss" />
+    <Content Include="Content\_variables.scss" />
+    <Content Include="Content\mixins.less" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
@@ -126,6 +140,9 @@
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Resume.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -140,6 +157,10 @@
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Views\Home\Portfolio.cshtml" />
+    <Content Include="Views\Shared\Navbar.cshtml" />
+    <Content Include="Views\Shared\Footer.cshtml" />
+    <Content Include="Views\Shared\_DefaultLayout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
