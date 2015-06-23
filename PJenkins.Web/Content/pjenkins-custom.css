@@ -6,3 +6,12 @@
     filter:             progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff1A1A1A', GradientType=0);
     background-repeat:  repeat-x;
 }
+
+.clickable{
+    cursor: pointer;   
+}
+
+.panel-heading span {
+	margin-top: -20px;
+	font-size: 15px;
+}

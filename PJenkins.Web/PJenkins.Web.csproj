@@ -135,6 +135,7 @@
     <Content Include="Content\_variables.scss" />
     <Content Include="Content\mixins.less" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\collapse-panels.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\npm.js" />
