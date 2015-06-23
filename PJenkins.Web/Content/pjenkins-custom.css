@@ -1,0 +1,8 @@
+.panel-primary > .panel-heading {
+    background-image:   -webkit-linear-gradient(top, #333333 0%, #1A1A1A 100%);
+    background-image:   -o-linear-gradient(top, #333333 0%, #1A1A1A 100%);
+    background-image:   -webkit-gradient(linear, left top, left bottom, from(#333333), to(#1A1A1A));
+    background-image:   linear-gradient(to bottom, #333333 0%, #1A1A1A 100%);
+    filter:             progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff1A1A1A', GradientType=0);
+    background-repeat:  repeat-x;
+}
