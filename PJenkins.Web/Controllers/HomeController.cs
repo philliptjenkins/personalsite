@@ -10,32 +10,32 @@ namespace PJenkins.Web.Controllers
     {
         public ActionResult Index()
         {
-            @ViewBag.Title = "Home Page";
+            @ViewBag.Title = "Phillip Jenkins - Home";
             return View();
         }
 
         public ActionResult About()
         {
-            @ViewBag.Title = "About Me";
+            @ViewBag.Title = "Phillip Jenkins - About";
             return View();
         }
 
         public ActionResult Contact()
         {
-            @ViewBag.Title = "Contact Info";
+            @ViewBag.Title = "Phillip Jenkins - Contact";
             return View();
         }
 
         public ActionResult Resume()
         {
-            @ViewBag.Title = "My Resume";
+            @ViewBag.Title = "Phillip Jenkins - Resume";
             return View();
         }
 
         public ActionResult Portfolio()
         {
             //fanciness to load different project pages
-            @ViewBag.Title = "My Portfolio";
+            @ViewBag.Title = "Phillip Jenkins - Portfolio";
             return View();
         }
     }
