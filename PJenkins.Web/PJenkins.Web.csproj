@@ -118,6 +118,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Icon.png" />
+    <Content Include="Images\Logos\blogger.png" />
     <Content Include="Images\Logos\dev_mark.png" />
     <Content Include="Images\Logos\facebook.png" />
     <Content Include="Images\Logos\github_dark.png" />
